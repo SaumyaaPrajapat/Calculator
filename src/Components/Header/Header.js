@@ -15,14 +15,14 @@ function Header(props) {
   }, [props.expression]);
 
   return (
-    <div className="header">
+    <div className="header custom-scroll">
       <div className="header_history">
         {props.history &&
           props.history?.map((item) => (
             <p
               key={
-                item + "" + Math.random() * 40
-                //unique for each p
+                item + "" + Math.random() * 44
+                //unique for each key
               }
             >
               {item}
@@ -30,7 +30,7 @@ function Header(props) {
           ))}
       </div>
       <br />
-      <div ref={expressionRef} className="header_expression">
+      <div ref={expressionRef} className="header_expression custom-scroll">
         <p>{props.expression}</p>
       </div>
       <p ref={resultRef} className="header_result">

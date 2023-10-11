@@ -10,6 +10,19 @@
   --text-color-1: #fbfcfc;
   --text-color-2: #bbbcbc;
 }
+.custom-scroll::-webkit-scrollbar {
+  height: 5px;
+  width: 5px;
+}
+.custom-scroll::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+.custom-scroll::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.14);
+}
+.custom-scroll::-webkit-scrollbar-thumb:hover {
+  background-color: gray;
+}
 .app {
   background: linear-gradient(#63c5ec, #db94ef);
   background-color: rgb(132, 207, 236);
