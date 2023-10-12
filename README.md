@@ -1,3 +1,6 @@
+<img width="960" alt="Calculator1" src="https://github.com/SaumyaaPrajapat/Calculator/assets/103128269/4bc6e6c5-3c9b-4896-832c-64b459f2e5da">
+
+<img width="959" alt="Calculator2" src="https://github.com/SaumyaaPrajapat/Calculator/assets/103128269/2b897eaf-6a01-4fd5-ab2a-f81357f7776a">
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
